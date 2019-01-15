@@ -19,10 +19,3 @@ PRODUCT_RELEASE_NAME := brady
 # Override product name
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lineage_brady_retail
 
-# enable stock zip packages flash
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.secure=0 \
-    ro.adb.secure=0 \
-    ro.debuggable=1 \
-    ro.allow.mock.location=1
-

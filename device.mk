@@ -266,3 +266,9 @@ PRODUCT_PACKAGES += \
 muxreport \
 terservice
 
+# enable stock zip packages flash
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    ro.debuggable=1 \
+    ro.allow.mock.location=1
