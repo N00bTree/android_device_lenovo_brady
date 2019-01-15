@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_brady.mk
+	$(LOCAL_DIT)/lineage.mk

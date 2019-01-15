@@ -1,4 +1,4 @@
-# TWRP device tree for Lenovo K8 (Brady)
+# Device tree for Lenovo K8 (Brady)
 
 ## About Device
 
@@ -20,13 +20,14 @@ Secondary Camera | 8 MP, LED
 
 ---
 
-This device tree can be used to build twrp for Lenovo K8
+This device tree can be used to build lineage os for Lenovo K8
 
 
 ## Build Instructions
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_brady-eng
-mka recoveryimage
+breakfast lineage_brady-eng
+lunch lineage_brady-eng
+make -jx
 ```
